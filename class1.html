@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class User{
+            constructor(username,email,password){
+                this.username=username;
+                this.email=email;
+                this.password=password;
+
+            }
+            encryptPassword(){
+                    return `${this.password}abc`    
+            }
+            changeUsername(){
+                return `${this.username.toUpperCase()}`
+            }
+        }
+        const obje=new User("Tarun choudhary","tarunchoudhary954@gmail.com","9805394341");
+
+        document.write(obje.encryptPassword());
+
+        document.write(obje.changeUsername());
+    </script>
+</body>
+</html> 
+
+
