@@ -1,5 +1,14 @@
+*{
+  background-color:bisque;
+}
 .App {
   text-align: center;
+  background-color:pink;
+}
+.sum{
+background-color: red
+;
+color: white;
 }
 
 .App-logo {
