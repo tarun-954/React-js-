@@ -45,22 +45,66 @@
 // }
 
 // export default App;
-import './App.css';
-function App() {
-  let arr=["C","L","K","A"]
-let arr2=arr.sort();
-    return (
-<div>{
-arr2.map((v)=>{
-      return (
-        <div>{v}</div>
-      )
-    })
+
+
+
+
+// paragraph.js code run code here 
+
+// import './App.css';
+// // import Khushil from './paragraph';
+// function App() {
+//   let arr=["A khushil","C","L","K"]
+// let arr2=arr.sort();
+//     return (
+// <div>{
+// arr2.map((v)=>{
+//       return (
+//         <div>{v}</div>
+//       )
+//     })
     
 
-  }
-  {/* <div className="sum">{arr[2]+" "+arr[3]}</div> */}
-</div>
-    );
-  }
-  export default App;
+//   }
+ 
+// {/* <Khushil /> */}
+// </div>
+//     );
+//   }
+//   export default App;
+
+
+
+// props concept code Here 
+// import "./App.css";
+// import Car from "./props_concept";
+
+// function App(){
+//   return (
+//     <>
+//     <Car name="Tiago" color="red" defaultName="City" />
+//     </>
+//   )
+
+// }
+
+// export default App
+
+
+// calculator code 
+
+import "./App.css";
+import Calculator from "./calulator.js";
+
+function App(){
+return(
+<>
+<Calculator />
+
+</>
+)
+}
+
+export default App;
+
+
