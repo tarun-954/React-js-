@@ -105,5 +105,5 @@ const Validation = () => {
     </form>
   );
 };
-Validation();
+
 export default Validation;

@@ -5,7 +5,9 @@ import Validation from './validation';
 
 function App() {
   return (
- <Validation />
+    <div> 
+      <Validation />
+    </div>
   );
 }
 
